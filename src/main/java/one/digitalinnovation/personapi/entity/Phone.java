@@ -17,7 +17,7 @@ public class Phone {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY) //ira gerar id automaticamente com o tipo identidade
-    private Long ID;
+    private Long id;
 
     @Enumerated(EnumType.STRING) //marcação de campo como ENUM e do tipo string
     @Column(nullable=false) //marcação para o banco de dados não permitir nulo
